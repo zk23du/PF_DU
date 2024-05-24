@@ -51,7 +51,7 @@ FedAvgCNN() <br>
 DNN(3*32*32, 100) # non-convex <br>
 ResNet18 (and other versions), AlexNet, MobileNet, GoogleNet, etc. <br>
 
-3.for AG_News and Sogou_News <br>
+3. for AG_News and Sogou_News <br>
 LSTM() <br>
 fastText() in Bag of Tricks for Efficient Text Classification <br>
 TextCNN() in Convolutional Neural Networks for Sentence Classification <br>
