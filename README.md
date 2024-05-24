@@ -62,7 +62,7 @@ We have a client and server setup for our federated learning. The optimizers are
 Navigate to system --> flcore --> optimizers. (here you can add new optimizers and import them in client class.
 Optimizers used in this repo.
 1. SGD
-2. Armijo (Sls) [Link to paper : [Armijo]((https://arxiv.org/abs/1905.09997))]
+2. Armijo (Sls) [Link to paper : [Armijo](https://arxiv.org/abs/1905.09997)
 3. Deep Franke Wolfe [Link to paper : [DFW](https://arxiv.org/abs/1811.07591)
 4. Variations of DFW used fro FedProx and Scaffold.
 5. DinSGD
