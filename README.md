@@ -40,7 +40,7 @@ Client 2         Size of data: 1630      Labels:  [0 3 6 9]
 Navigate to system --> flcore --> trainmodel. 
 The default models are used here, yu can add you own models in the models.py file or create a new .py file and import it.
 
-1. for MNIST and Fashion-MNIST //
+1. for MNIST and Fashion-MNIST \\
 Mclr_Logistic(1*28*28)
 LeNet()
 DNN(1*28*28, 100) # non-convex
