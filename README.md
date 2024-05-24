@@ -40,22 +40,22 @@ Client 2         Size of data: 1630      Labels:  [0 3 6 9]
 Navigate to system --> flcore --> trainmodel. 
 The default models are used here, yu can add you own models in the models.py file or create a new .py file and import it.
 
-1. for MNIST and Fashion-MNIST \\
-Mclr_Logistic(1*28*28)
-LeNet()
-DNN(1*28*28, 100) # non-convex
+1. for MNIST and Fashion-MNIST <br>
+Mclr_Logistic(1*28*28)  <br>
+LeNet()  <br>
+DNN(1*28*28, 100) # non-convex  <br>
 
-2. for Cifar10, Cifar100 and Tiny-ImageNet
-Mclr_Logistic(3*32*32)
-FedAvgCNN()
-DNN(3*32*32, 100) # non-convex
-ResNet18 (and other versions), AlexNet, MobileNet, GoogleNet, etc.
+2. for Cifar10, Cifar100 and Tiny-ImageNet  <br>
+Mclr_Logistic(3*32*32)  <br>
+FedAvgCNN() <br>
+DNN(3*32*32, 100) # non-convex <br>
+ResNet18 (and other versions), AlexNet, MobileNet, GoogleNet, etc. <br>
 
-3.for AG_News and Sogou_News
-LSTM()
-fastText() in Bag of Tricks for Efficient Text Classification
-TextCNN() in Convolutional Neural Networks for Sentence Classification
-TransformerModel() in Attention is all you need
+3.for AG_News and Sogou_News <br>
+LSTM() <br>
+fastText() in Bag of Tricks for Efficient Text Classification <br>
+TextCNN() in Convolutional Neural Networks for Sentence Classification <br>
+TransformerModel() in Attention is all you need <br>
 
 ## Optimizers Used.
 We have a client and server setup for our federated learning. The optimizers are used in the client side for achieving the results. One can extend it to the server side as well.
