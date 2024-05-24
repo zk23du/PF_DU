@@ -1,6 +1,6 @@
 # PF_DU
 Personalized Federated Learning 
-This repository conatins the personalized framework of fedearted learning with modifications and inclution of new optimizers. (Origainlly propsed by PFLib [https://github.com/TsingZ0/PFLlib]) 
+This repository conatins the personalized framework of fedearted learning with modifications and inclution of new optimizers. (Origainlly propsed by [PFLib](https://github.com/TsingZ0/PFLlib) 
 Here I propose a user-friendly algorithm library (with an integrated evaluation platform) for beginners who intend to start federated learning (FL) study. A detailed explantion is stated below.
 
 ## Creating the conda environment
